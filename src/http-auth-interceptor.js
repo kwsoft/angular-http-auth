@@ -5,6 +5,11 @@
  * (c) 2012 Witold Szczerba
  * License: MIT
  */
+
+if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports){
+  module.exports = 'angular-http-auth';
+}
+
 (function () {
   'use strict';
 
